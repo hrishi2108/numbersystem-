@@ -16,4 +16,23 @@ for (i = 0 ; i <numbers.length; i++)
     else{
         console.log("It is not a prime number")
     }
+    let b =[]
+    let c = b[i];
+    let d = 0;
+    if(a == 2){
+        b.push[[i]]
+        for(i = 0;i <b.length;i++)
+        {
+            if(i > c){ 
+                c = b[i]
+            }
+            console.log(c)
+        }
+        for(i=0;i<b.length;i++){
+           d =+ b[i]; 
+        }
+        console.log(d)
+
+
+    }
 }
